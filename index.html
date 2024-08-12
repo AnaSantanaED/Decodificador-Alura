@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="LogoAlura" src="/imagens/LogoAlura.png" alt="Logo da Alura">
+    </header>
+
+<main>
+    <section>
+        <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea> </textarea>
+        <div class="warning">
+            <span class="icon"><img src="imagens/Exclamação.png" alt="exclamation sign icon"></span>
+            <span class="informacao">Apenas letras minúsculas e sem acento.</span>
+          </div>
+        <div class="botoes">
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+    </section>
+
+    <section>
+        <textarea class="mensagem" cols="20" rows="10"></textarea>
+        <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+
+    </section>
+    <section>
+        <footer class="__footer">
+            <div class="__footer__flex">
+              <p>Developed by <b>Ana Santana, 2024</b></p>
+              <a target="_blank" href="https://github.com/AnaSantanaED"><img src="./imagens/Logo Github.png" alt="github icon"></a>
+              <a target="_blank" href="https://www.linkedin.com/in/ana-santana-646036156/"> <img src="./imagens/Logo Linkedin.png"
+                  alt="linkedin icon"></a>
+            </div>
+          </footer>      
+    </section>
+</main>
+<script src="script.js"></script> 
+
+</body>
+</html>

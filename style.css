@@ -1,0 +1,129 @@
+*{
+    background: #e5e5e5;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.LogoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 8%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color:#0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color:#0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/Boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    font-size: 0.75rem;
+    font-family: var(--font-family-primary);
+    color: gray;
+  }
+
+.icon img {
+    width: 1rem;
+  }
+
+.warning {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 16px;
+  }    
+  
+.__footer {
+    text-align: center;
+    padding: 0px;
+    color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    font-family: "Rusty Cellair", sans-serif;
+    font-style: italic;
+    font-size: 12px; 
+  }
+.__footer__flex {
+    color:#034f84;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0px;
+    padding: 1px;
+    text-decoration: underline;
+    font-family: "", sans-serif;
+  }
+.__footer__flex img {
+    width: 1rem;
+  }
