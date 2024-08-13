@@ -16,7 +16,14 @@
 * A aplicação funciona apenas com letras minúsculas.
 * Não são permitidos acentos ou caracteres especiais.
 * O sistema não reconhece caracteres numéricos ou pontuação.
-  
+
+<h2>Implementação de Criptografia para Mensagens</h2>
+
+![image](https://github.com/user-attachments/assets/3a570973-b85d-4296-a1a1-75f8cd652451)
+
+![image](https://github.com/user-attachments/assets/530233cb-4885-4cc6-9158-02bad4b0ad4e)
+![image](https://github.com/user-attachments/assets/83c5ef93-1976-4699-948c-416539a18c01)
+
 <h2>Autora</h2>
 
 Desenvolvido por Ana Santana.
